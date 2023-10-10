@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/intro_screen.dart';
+import 'package:grocery_shopping/navigation/app_router.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -10,11 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: "Grocery app",
       theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
-      home: const IntroScreen(),
+      routerConfig: AppRouter().router,
     );
   }
 }

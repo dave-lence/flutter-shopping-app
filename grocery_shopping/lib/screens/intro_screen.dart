@@ -54,7 +54,7 @@ class _IntroScreenState extends State<IntroScreen> {
             "Grocery Shopping",
             textAlign: TextAlign.center,
             style: textTheme.displayMedium!.copyWith(
-                color: colorScheme.onBackground, fontWeight: FontWeight.bold),
+                color: colorScheme.onPrimary, fontWeight: FontWeight.bold),
           )),
           Positioned(
             bottom: 48,
