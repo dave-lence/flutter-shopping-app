@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "scree"
+import 'screens/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,13 +8,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
- 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     
-      home: IntroScreen(),
+      title: "Grocery app",
+      theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
+      home: const IntroScreen(),
     );
   }
 }
-
