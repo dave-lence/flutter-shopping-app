@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
               preferredSize: const Size.fromHeight(56.0),
               child: GroceryTextFormField(),
             )),
-            bottomNavigationBar: BottomNavBar(index:0),
+            bottomNavigationBar: const BottomNavBar(index:0),
             );
   }
 }

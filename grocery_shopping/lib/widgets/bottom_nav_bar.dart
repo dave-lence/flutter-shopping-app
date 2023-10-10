@@ -21,7 +21,7 @@ class BottomNavBar extends StatelessWidget {
               backgroundColor: colorSheme.secondary,
               selectedIndex: index,
               indicatorColor: Colors.transparent,
-             
+              height: 70,
               onDestinationSelected: (value) => print(value),
               destinations: const [
                 Padding(
@@ -63,7 +63,7 @@ class BottomNavBar extends StatelessWidget {
                       Icons.qr_code_outlined,
                       color: Colors.white,
                     ),
-                    label: "Home",
+                    label: "Scan",
                   ),
                 ),
                 Padding(
@@ -77,7 +77,7 @@ class BottomNavBar extends StatelessWidget {
                       Icons.history_outlined,
                       color: Colors.white,
                     ),
-                    label: "Home",
+                    label: "History",
                   ),
                 ),
                 Padding(
@@ -88,10 +88,10 @@ class BottomNavBar extends StatelessWidget {
                       color: Colors.white,
                     ),
                     icon: Icon(
-                      Icons.person_3_outlined,
+                      Icons.person_2_outlined,
                       color: Colors.white,
                     ),
-                    label: "Home",
+                    label: "Profile",
                   ),
                 ),
               ]),
