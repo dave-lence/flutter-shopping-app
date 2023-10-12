@@ -15,10 +15,12 @@ class GroceryTextFormField extends StatelessWidget {
       child: TextFormField(
         cursorColor: colorScheme.onPrimary.withAlpha(200),
         decoration: InputDecoration(
+          
           prefixIcon: Icon(
             Icons.search_outlined,
             color: colorScheme.onPrimary,
           ),
+          
           hintText: "Search",
           hintStyle: textTheme.bodyMedium!
               .copyWith(color: colorScheme.onPrimary.withAlpha(200)),

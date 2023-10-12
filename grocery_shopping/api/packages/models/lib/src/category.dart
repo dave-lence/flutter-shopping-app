@@ -59,6 +59,24 @@ class Category extends Equatable {
       description: 'A category for all kinds of vegetables.',
       imageUrl: 'https://source.unsplash.com/random/?vegetable',
     ),
+    Category(
+      id: Uuid().v4(),
+      name: 'Drinks',
+      description: 'A category for all kinds of drinks.',
+      imageUrl: 'https://source.unsplash.com/random/?drink',
+    ),
     // Add more sample data as needed
+    Category(
+      id: Uuid().v4(),
+      name: 'Meat',
+      description: 'Category for fresh meat',
+      imageUrl: 'https://source.unsplash.com/random/?meat',
+    ),
+    Category(
+      id: Uuid().v4(),
+      name: 'Snacks',
+      description: 'Category for fresh sweet snacks',
+      imageUrl: 'https://source.unsplash.com/random/?snack',
+    ),
   ];
 }

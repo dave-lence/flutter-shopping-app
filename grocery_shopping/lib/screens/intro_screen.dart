@@ -44,8 +44,8 @@ class _IntroScreenState extends State<IntroScreen> {
             //     child: VideoPlayer(_controller),
             //   ),
             // ),
-            child: Image(
-              image: AssetImage("assets/images/intro-5.jpg"),
+            child: Image.network(
+              "https://plus.unsplash.com/premium_photo-1669652909169-27f926cc856d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVnZXRhYmxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
               fit: BoxFit.cover,
             ),
           ),
